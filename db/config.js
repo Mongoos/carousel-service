@@ -1,4 +1,5 @@
 module.exports = {
   user: 'root',
-  password: 'root',
+  password: 'test',
+  database: 'carousel',
 };

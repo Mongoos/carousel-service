@@ -57,7 +57,7 @@ class Gallery extends React.Component {
 
   fetch() {
     const location = window.location.href.split('/')[3];
-    axios.get(`/api/images/${location}`)
+    axios.get(`http://localhost:3001/api/images/${location}`)
       .then((data) => {
         this._isMounted && this.setState({ images: data.data });
       });

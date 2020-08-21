@@ -1,5 +1,6 @@
 const db = require('../db');
 
+console.log(db)
 // eslint-disable-next-line arrow-body-style
 const insert = (locationId, url, order) => {
   return new Promise((resolve, reject) => {
